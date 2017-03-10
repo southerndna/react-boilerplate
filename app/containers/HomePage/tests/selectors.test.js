@@ -1,4 +1,4 @@
-import { fromJS } from 'immutable';
+import Immutable from 'seamless-immutable';
 
 import {
   selectHome,
@@ -7,10 +7,10 @@ import {
 
 describe('selectHome', () => {
   it('should select the home state', () => {
-    const homeState = fromJS({
+    const homeState = Immutable({
       userData: {},
     });
-    const mockedState = fromJS({
+    const mockedState = Immutable({
       home: homeState,
     });
     expect(selectHome(mockedState)).toEqual(homeState);
@@ -21,7 +21,7 @@ describe('makeSelectUsername', () => {
   const usernameSelector = makeSelectUsername();
   it('should select the username', () => {
     const username = 'mxstbr';
-    const mockedState = fromJS({
+    const mockedState = Immutable({
       home: {
         username,
       },

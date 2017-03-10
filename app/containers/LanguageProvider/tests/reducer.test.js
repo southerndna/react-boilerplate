@@ -1,4 +1,4 @@
-import { fromJS } from 'immutable';
+import Immutable from 'seamless-immutable';
 
 import languageProviderReducer from '../reducer';
 import {
@@ -7,7 +7,7 @@ import {
 
 describe('languageProviderReducer', () => {
   it('returns the initial state', () => {
-    expect(languageProviderReducer(undefined, {})).toEqual(fromJS({
+    expect(languageProviderReducer(undefined, {})).toEqual(Immutable({
       locale: 'en',
     }));
   });

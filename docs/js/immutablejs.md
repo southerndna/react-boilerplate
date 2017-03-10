@@ -15,9 +15,9 @@ converting it to a immutable data structure. (Note: the conversion is performed 
 that even arbitrarily nested arrays/objects are immutable structures too!)
 
 ```JS
-import { fromJS } from 'immutable';
+import Immutable from 'seamless-immutable';
 
-const initialState = fromJS({
+const initialState = Immutable({
   myData: {
   	message: 'Hello World!'
   },

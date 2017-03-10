@@ -9,14 +9,14 @@
  * case YOUR_ACTION_CONSTANT:
  *   return state.set('yourStateVariable', true);
  */
-import { fromJS } from 'immutable';
+import Immutable from 'seamless-immutable';
 
 import {
   CHANGE_USERNAME,
 } from './constants';
 
 // The initial state of the App
-const initialState = fromJS({
+const initialState = Immutable({
   username: '',
 });
 

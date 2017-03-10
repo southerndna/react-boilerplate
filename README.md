@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/react-boilerplate/react-boilerplate-brand/master/assets/banner-metal-optimized.jpg" alt="react boilerplate banner" align="center" />
+<img src="https://raw.githubusercontent.com/southerndna/react-boilerplate-brand/master/assets/banner-metal-optimized.jpg" alt="react boilerplate banner" align="center" />
 
 <br />
 
@@ -9,20 +9,20 @@
 
 <div align="center">
   <!-- Dependency Status -->
-  <a href="https://david-dm.org/react-boilerplate/react-boilerplate">
-    <img src="https://david-dm.org/react-boilerplate/react-boilerplate.svg" alt="Dependency Status" />
+  <a href="https://david-dm.org/southerndna/react-boilerplate">
+    <img src="https://david-dm.org/southerndna/react-boilerplate.svg" alt="Dependency Status" />
   </a>
   <!-- devDependency Status -->
-  <a href="https://david-dm.org/react-boilerplate/react-boilerplate#info=devDependencies">
-    <img src="https://david-dm.org/react-boilerplate/react-boilerplate/dev-status.svg" alt="devDependency Status" />
+  <a href="https://david-dm.org/southerndna/react-boilerplate#info=devDependencies">
+    <img src="https://david-dm.org/southerndna/react-boilerplate/dev-status.svg" alt="devDependency Status" />
   </a>
   <!-- Build Status -->
-  <a href="https://travis-ci.org/react-boilerplate/react-boilerplate">
-    <img src="https://travis-ci.org/react-boilerplate/react-boilerplate.svg" alt="Build Status" />
+  <a href="https://travis-ci.org/southerndna/react-boilerplate">
+    <img src="https://travis-ci.org/southerndna/react-boilerplate.svg" alt="Build Status" />
   </a>
   <!-- Test Coverage -->
-  <a href="https://coveralls.io/r/react-boilerplate/react-boilerplate">
-    <img src="https://coveralls.io/repos/github/react-boilerplate/react-boilerplate/badge.svg" alt="Test Coverage" />
+  <a href="https://coveralls.io/r/southerndna/react-boilerplate">
+    <img src="https://coveralls.io/repos/github/southerndna/react-boilerplate/badge.svg" alt="Test Coverage" />
   </a>
 </div>
 <div align="center">
@@ -95,9 +95,12 @@ There’s also a <a href="https://vimeo.com/168648012">fantastic video</a> on ho
 
 <sub><i>Keywords: React.js, Redux, Hot Reloading, ESNext, Babel, react-router, Offline First, ServiceWorker, `styled-components`, redux-saga, FontFaceObserver</i></sub>
 
+## Modifications
+
+This fork has been modified to use <a href="https://github.com/rtfeldman/seamless-immutable">seamless-immutable</a>. Read why we thought that was <a href="http://tech.noredink.com/post/107617838018/switching-from-immutablejs-to-seamless-immutable">a better choice</a>.
 ## Quick start
 
-1. Clone this repo using `git clone --depth=1 https://github.com/react-boilerplate/react-boilerplate.git`
+1. Clone this repo using `git clone --depth=1 https://github.com/southerndna/react-boilerplate.git`
 1. Run `npm run setup` to install dependencies and clean the git repo.<br />
    *We auto-detect `yarn` for installing packages by default, if you wish to force `npm` usage do: `USE_YARN=false npm run setup`*<br />
    *At this point you can run `npm start` to see the example app at `http://localhost:3000`.*

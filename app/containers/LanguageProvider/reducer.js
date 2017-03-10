@@ -4,7 +4,7 @@
  *
  */
 
-import { fromJS } from 'immutable';
+import Immutable from 'seamless-immutable';
 
 import {
   CHANGE_LOCALE,
@@ -13,7 +13,7 @@ import {
   DEFAULT_LOCALE,
 } from '../App/constants';
 
-const initialState = fromJS({
+const initialState = Immutable({
   locale: DEFAULT_LOCALE,
 });
 

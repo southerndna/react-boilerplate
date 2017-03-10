@@ -1,4 +1,4 @@
-import { fromJS } from 'immutable';
+import Immutable from 'seamless-immutable';
 
 import homeReducer from '../reducer';
 import {
@@ -8,7 +8,7 @@ import {
 describe('homeReducer', () => {
   let state;
   beforeEach(() => {
-    state = fromJS({
+    state = Immutable({
       username: '',
     });
   });

@@ -1,4 +1,4 @@
-import { fromJS } from 'immutable';
+import Immutable from 'seamless-immutable';
 
 import {
   selectLanguage,
@@ -6,8 +6,8 @@ import {
 
 describe('selectLanguage', () => {
   it('should select the global state', () => {
-    const globalState = fromJS({});
-    const mockedState = fromJS({
+    const globalState = Immutable({});
+    const mockedState = Immutable({
       language: globalState,
     });
     expect(selectLanguage(mockedState)).toEqual(globalState);
