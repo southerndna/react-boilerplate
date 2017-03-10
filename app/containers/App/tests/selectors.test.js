@@ -61,7 +61,7 @@ describe('makeSelectError', () => {
 describe('makeSelectRepos', () => {
   const reposSelector = makeSelectRepos();
   it('should select the repos', () => {
-    const repositories = fromJS([]);
+    const repositories = Immutable([]);
     const mockedState = Immutable({
       global: {
         userData: {

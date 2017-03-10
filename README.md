@@ -98,6 +98,7 @@ There’s also a <a href="https://vimeo.com/168648012">fantastic video</a> on ho
 ## Modifications
 
 This fork has been modified to use <a href="https://github.com/rtfeldman/seamless-immutable">seamless-immutable</a>. Read why we thought that was <a href="http://tech.noredink.com/post/107617838018/switching-from-immutablejs-to-seamless-immutable">a better choice</a>.
+
 ## Quick start
 
 1. Clone this repo using `git clone --depth=1 https://github.com/southerndna/react-boilerplate.git`

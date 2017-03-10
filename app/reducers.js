@@ -4,7 +4,7 @@
  */
 
 import Immutable from 'seamless-immutable';
-import { combineReducers } from 'redux-immutable';
+import { combineReducers } from 'redux-seamless-immutable';
 import { LOCATION_CHANGE } from 'react-router-redux';
 
 import globalReducer from 'containers/App/reducer';

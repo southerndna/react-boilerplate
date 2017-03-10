@@ -7,10 +7,15 @@ efficiently determine if our components need to rerender since we know if the
 Check out the [official documentation](https://facebook.github.io/immutable-js/)
 for a good explanation of the more intricate benefits it has.
 
+_Note_ that this fork has been modified to use 
+<a href="https://github.com/rtfeldman/seamless-immutable">seamless-immutable</a>. Read 
+why we thought that was 
+<a href="http://tech.noredink.com/post/107617838018/switching-from-immutablejs-to-seamless-immutable">a better choice</a>.
+
 ## Usage
 
 In our reducers, we make the initial state an immutable data structure with the
-`fromJS` function. We pass it an object or an array, and it takes care of
+`Immutable` function. We pass it an object or an array, and it takes care of
 converting it to a immutable data structure. (Note: the conversion is performed deeply so
 that even arbitrarily nested arrays/objects are immutable structures too!)
 

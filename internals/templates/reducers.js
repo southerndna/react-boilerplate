@@ -3,7 +3,7 @@
  * If we were to do this in store.js, reducers wouldn't be hot reloadable.
  */
 
-import { combineReducers } from 'redux-immutable';
+import { combineReducers } from 'redux-seamless-immutable';
 import Immutable from 'seamless-immutable';
 import { LOCATION_CHANGE } from 'react-router-redux';
 
