@@ -42,7 +42,7 @@ module.exports = {
   }, {
     type: 'confirm',
     name: 'wantMessages',
-    default: false,
+    default: true,
     message: 'Do you want i18n messages (i.e. will this component use text)?',
   }],
   actions: (data) => {
