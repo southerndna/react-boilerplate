@@ -82,6 +82,6 @@ describe('makeSelectLocationState', () => {
     const mockedState = Immutable({
       route,
     });
-    expect(locationStateSelector(mockedState)).toEqual(route.toJS());
+    expect(locationStateSelector(mockedState)).toEqual(route);
   });
 });

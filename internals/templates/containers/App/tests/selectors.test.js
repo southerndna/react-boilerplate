@@ -10,7 +10,7 @@ describe('makeSelectLocationState', () => {
     const mockedState = Immutable({
       route,
     });
-    expect(makeSelectLocationState()(mockedState)).toEqual(route.toJS());
+    expect(makeSelectLocationState()(mockedState)).toEqual(route);
   });
 
   it('should return cached js routeState for same concurrent calls', () => {
